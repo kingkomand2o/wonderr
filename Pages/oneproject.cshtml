@@ -1,0 +1,82 @@
+﻿@page "/oneproject/{id:int}"
+@model wonderr.Pages.oneprojectModel
+@{
+}
+
+<link rel="stylesheet" href="~/css/oneproject.css" />
+<!-- Hero Section with Carousel -->
+<section class="project-hero">
+    <div class="project-carousel">
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @foreach (var item in Model.ImagePaths)
+                {
+                    <div class="carousel-item active">
+                        <img src="~/uploads/properties/@item.Substring(19)" class="d-block w-100" alt="Project View 2">
+                    </div>
+                }
+                
+                <!-- Add more carousel items as needed -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="project-info-overlay">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-tags">
+                    <span class="tag"><i class="fas fa-map-marker-alt"></i>@Model.property.LocationEn</span>
+                    <span class="tag"><i class="fas fa-home"></i> @Model.property.LotTypeEn</span>
+                </div>
+                <h1 class="cairo">@Model.property.NameEn</h1>
+                <div class="project-price">
+                    <span>Starting from</span>
+                    <h2>@Model.property.Price.ToString("N0") EGP</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Description -->
+<section class="project-description py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="description-content">
+                    <h3>Overview</h3>
+                    <div class="separator"></div>
+                    <p class="cairo">@Model.property.NameAr</p>
+
+                    <h3 class="mt-5">Lifestyle & Amenities</h3>
+                    <div class="separator"></div>
+                    <p class="cairo"></p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="quick-info">
+                    <div class="info-item">
+                        <i class="fas fa-ruler-combined"></i>
+                        <div>
+                            <h4>Unit Size</h4>
+                            <p>@Model.property.UnitSize m²</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h4>Delivery Date</h4>
+                            <p>@Model.property.DeliveryDate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

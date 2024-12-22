@@ -1,0 +1,70 @@
+﻿@page "/PL/{id:int}"
+@model wonderr.Pages.PLModel
+
+@{
+    ViewData["Title"] = "PL";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+
+<link rel="stylesheet" href="~/css/oneproject.css" />
+<!-- Hero Section with Carousel -->
+<section class="project-hero">
+    <div class="project-carousel">
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="~/product/@Model.project.Image.Substring(8)" class="d-block w-100" alt="Project View 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="project-info-overlay">
+        <div class="container">
+            <div class="project-header">
+                <div class="project-tags">
+                    <span class="tag"><i class="fas fa-map-marker-alt"></i>@Model.project.LocationEn</span>
+                    <span class="tag"><i class="fas fa-home"></i> @Model.project.DeliveryDate</span>
+                </div>
+                <h1 class="cairo">@Model.project.NameEn</h1>
+                <div class="project-price">
+                    <span>Starting from</span>
+                    <h2>@Model.project.Price.ToString("N0") EGP</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Project Description -->
+<section class="project-description py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="description-content">
+                    <h3>Overview</h3>
+                    <div class="separator"></div>
+                    <p class="cairo">@Model.project.OverviewEn</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="quick-info">
+                    <div class="info-item">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h4>Delivery Date</h4>
+                            <p>@Model.project.DeliveryDate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

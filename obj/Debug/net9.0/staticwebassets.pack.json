@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\wonderr.bundle.scp.css",
+      "PackagePath": "staticwebassets\\wonderr.6qwgsl56k1.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\aboutus.css",
+      "PackagePath": "staticwebassets\\css\\aboutus.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\dashboard.css",
+      "PackagePath": "staticwebassets\\css\\dashboard.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\dlist.css",
+      "PackagePath": "staticwebassets\\css\\dlist.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\oneproject.css",
+      "PackagePath": "staticwebassets\\css\\oneproject.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\projects.css",
+      "PackagePath": "staticwebassets\\css\\projects.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\Misr-Italia_logo.png",
+      "PackagePath": "staticwebassets\\img\\Misr-Italia_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\Upload_Newhomes_Entity_Db_ProjectPhoto_Photo_612f07be37d12bf305dac7a5c9d19985.jpg",
+      "PackagePath": "staticwebassets\\img\\Upload_Newhomes_Entity_Db_ProjectPhoto_Photo_612f07be37d12bf305dac7a5c9d19985.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg",
+      "PackagePath": "staticwebassets\\img\\WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\administrative.jpg",
+      "PackagePath": "staticwebassets\\img\\administrative.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\coastal.jpg",
+      "PackagePath": "staticwebassets\\img\\coastal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\commercial.jpg",
+      "PackagePath": "staticwebassets\\img\\commercial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\dump.jpg",
+      "PackagePath": "staticwebassets\\img\\dump.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\emaar.svg",
+      "PackagePath": "staticwebassets\\img\\emaar.svg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\hero-Photoroom.png",
+      "PackagePath": "staticwebassets\\img\\hero-Photoroom.png"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\hero.jpg",
+      "PackagePath": "staticwebassets\\img\\hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\herosec.jpg",
+      "PackagePath": "staticwebassets\\img\\herosec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\png2jpg.zip",
+      "PackagePath": "staticwebassets\\img\\png2jpg.zip"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\residential.jpg",
+      "PackagePath": "staticwebassets\\img\\residential.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\saad.jpg",
+      "PackagePath": "staticwebassets\\img\\saad.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\tatweer(1).png",
+      "PackagePath": "staticwebassets\\img\\tatweer(1).png"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\img\\tatweer.png",
+      "PackagePath": "staticwebassets\\img\\tatweer.png"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\5268934e-20f0-47a4-b7b1-d3ea7ff3470a_tatweer(1).png",
+      "PackagePath": "staticwebassets\\product\\5268934e-20f0-47a4-b7b1-d3ea7ff3470a_tatweer(1).png"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\7ee46fe2-2703-43ad-875a-0db729c3dbb1_434993931_1097162618209408_1418161636419468205_n.jpg",
+      "PackagePath": "staticwebassets\\product\\7ee46fe2-2703-43ad-875a-0db729c3dbb1_434993931_1097162618209408_1418161636419468205_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\8694693f-4f68-468d-99cb-033ad50d95dd_WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg",
+      "PackagePath": "staticwebassets\\product\\8694693f-4f68-468d-99cb-033ad50d95dd_WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\9037e8cc-e376-4c8d-b873-0618066b76f8_WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg",
+      "PackagePath": "staticwebassets\\product\\9037e8cc-e376-4c8d-b873-0618066b76f8_WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\c8eca68c-6419-45a4-a196-3a7bb1e93570_WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg",
+      "PackagePath": "staticwebassets\\product\\c8eca68c-6419-45a4-a196-3a7bb1e93570_WhatsApp-Image-2022-10-16-at-16.41.38-1170x767-1-e1701775777762.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\ce16073c-3b20-46ee-8177-702d99cf97b6_Upload_Newhomes_Entity_Db_ProjectPhoto_Photo_612f07be37d12bf305dac7a5c9d19985.jpg",
+      "PackagePath": "staticwebassets\\product\\ce16073c-3b20-46ee-8177-702d99cf97b6_Upload_Newhomes_Entity_Db_ProjectPhoto_Photo_612f07be37d12bf305dac7a5c9d19985.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png",
+      "PackagePath": "staticwebassets\\product\\f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\22ca2c28-d324-4758-a050-406e61ac561c_470231671_2026851771119802_8596165882567430755_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\22ca2c28-d324-4758-a050-406e61ac561c_470231671_2026851771119802_8596165882567430755_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\2c93a3d0-da6a-4b63-abd0-fe80c47e5927_470604034_2026851751119804_6839981259548261468_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\2c93a3d0-da6a-4b63-abd0-fe80c47e5927_470604034_2026851751119804_6839981259548261468_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\5cfdcd37-5e2f-44ff-a85d-29654ee5b57b_470604034_2026851751119804_6839981259548261468_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\5cfdcd37-5e2f-44ff-a85d-29654ee5b57b_470604034_2026851751119804_6839981259548261468_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\621055f8-105f-457f-985a-2d9bb5fc0a2d_470231671_2026851771119802_8596165882567430755_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\621055f8-105f-457f-985a-2d9bb5fc0a2d_470231671_2026851771119802_8596165882567430755_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\7321c7b8-d46f-4142-9a25-773bb555fb52_470189944_2026851734453139_1379194143068424563_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\7321c7b8-d46f-4142-9a25-773bb555fb52_470189944_2026851734453139_1379194143068424563_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\8d3aafe3-863c-48d3-95e1-dfe0343d0a18_470557794_2026851857786460_2533386052725312381_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\8d3aafe3-863c-48d3-95e1-dfe0343d0a18_470557794_2026851857786460_2533386052725312381_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\a2b072b6-8160-4e8b-bec9-6884b7addf43_470557794_2026851857786460_2533386052725312381_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\a2b072b6-8160-4e8b-bec9-6884b7addf43_470557794_2026851857786460_2533386052725312381_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\c6f05069-1849-4c14-8378-90dabf3e85f5_470189944_2026851734453139_1379194143068424563_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\c6f05069-1849-4c14-8378-90dabf3e85f5_470189944_2026851734453139_1379194143068424563_n.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.wonderr.props",
+      "PackagePath": "build\\wonderr.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.wonderr.props",
+      "PackagePath": "buildMultiTargeting\\wonderr.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.wonderr.props",
+      "PackagePath": "buildTransitive\\wonderr.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.wonderr.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.wonderr.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

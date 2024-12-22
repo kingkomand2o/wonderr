@@ -1,0 +1,71 @@
+﻿@page
+@model wonderr.Pages.Dashboard.ProjectsModel
+
+@{
+    ViewData["Title"] = "Projects";
+    Layout = "~/Pages/Dashboard/dashboard_Layout.cshtml";
+}
+
+<h1>Projects</h1>
+<table class="table">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].NameEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].NameAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].LocationEn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].LocationAr)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Project[0].DeliveryDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Project) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NameAr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationEn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocationAr)
+            </td>
+            <td>
+                <img src="~/product/@item.Image.Substring(7)" width="100" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryDate)
+            </td>
+            <td>
+                    <form method="post" asp-page-handler="Delete" asp-route-id="@item.Id" style="display: inline;">
+                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this project?');">
+                            Delete
+                        </button>
+                    </form>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

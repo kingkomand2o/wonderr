@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonderland - Your Real Estate Consultant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">
+    @RenderSection("Styles", required: false)
+    <style>
+        .cairo {
+            font-family: "Cairo", serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            font-variation-settings: "slnt" 0;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/6ecc6d6700.js" crossorigin="anonymous"></script>
+
+    <!-- Header -->
+    <header class="d-flex align-items-center justify-content-between fixed-top">
+        <a asp-page="/Index" class="logo">Wonderland Real Estate</a>
+        <nav class="align-items-center d-none d-md-flex">
+            <a asp-page="/Index">Home</a>
+            <a asp-page="/AboutUs">About Us</a>
+            <a asp-page="/Projects">Projects</a>
+            <a asp-page="/PR">Units</a>
+            <a>Contact Us</a>
+            <div class="dropdown lang-toggle">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-globe"></i> EN
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EN</a></li>
+                    <li><a class="dropdown-item" href="#">ع</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hamburger d-md-none" id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <div class="sidebar" id="sidebar">
+        <a asp-page="/Index">Home</a>
+        <a asp-page="/AboutUs">About Us</a>
+        <a asp-page="/Projects">Projects</a>
+        <a asp-page="/PR">Units</a>
+        <a>Contact Us</a>
+        <div class="dropdown sidebar-lang-toggle">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-globe"></i> EN
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#"><i class="fas fa-check me-2 invisible"></i>EN</a></li>
+                <li><a class="dropdown-item" href="#"><i class="fas fa-check me-2 invisible"></i>ع</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="~/js/main.js"></script>
+
+    @RenderBody()
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h2 class="mb-4 fw-bold text-dark">Stay Updated</h2>
+                    <div class="mx-auto mb-4" style="width: 50px; height: 2px; background-color: #D8AE7E;"></div>
+                    <p class="mb-4 text-muted">Stay informed about the latest projects and exclusive offers</p>
+                    <form class="d-flex flex-column flex-md-row align-items-center justify-content-center gap-2">
+                        <div class="input-group" style="max-width: 500px; width: 100%;">
+                            <span class="input-group-text bg-transparent border-end-0">
+                                <i class="fa-solid fa-phone" style="color: #D8AE7E;"></i>
+                            </span>
+                            <input type="tel" class="form-control border-start-0" placeholder="Enter your Whatsapp number"
+                                   style="padding: 12px;" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary mt-3 mt-md-0"
+                                style="background-color: #25D366; color: #fff; padding: 12px 30px; font-weight: bold;">
+                            Get Updates <i class="fas fa-arrow-right ms-2"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="">
+            <div class="footer-content">
+                <!-- Company Info -->
+                <div class="footer-brand">
+                    <h3 class="footer-logo" style="text-align:center;">
+                        Wonderland Real Estate
+                    </h3>
+                    <p class="footer-description" style="text-align:center;">Your trusted partner in real estate investment, providing exceptional service and expertise.</p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4><i class="fas fa-link"></i> Quick Links</h4>
+                    <ul class="align-items-start">
+                        <li class="align-items-start"><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li class="align-items-start"><a href="#"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li class="align-items-start"><a href="#"><i class="fas fa-chevron-right"></i> Projects</a></li>
+                        <li class="align-items-start"><a href="#"><i class="fas fa-chevron-right"></i> Developers</a></li>
+                        <li class="align-items-start"><a href="#"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact align-items-start">
+                    <h4><i class="fas fa-address-card"></i> Contact Us</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p style="text-align:start !important;">123 Main St, City, Country</p>
+                    </div>
+                    <div class="contact-item align-items-start" style="text-align:start !important;">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+123 456 7890</p>
+                    </div>
+                    <div class="contact-item align-items-start" style="text-align:start !important;">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@address.com</p>
+                    </div>
+                    <div class="contact-item align-items-start" style="text-align:start !important;">
+                        <i class="far fa-clock"></i>
+                        <p>Mon - Fri: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+
+                <!-- Social Media -->
+                <div class="footer-social">
+                    <h4><i class="fas fa-share-alt"></i> Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" title="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon" title="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="copyright">
+                    <i class="far fa-copyright"></i> 2024 Wonderland Real Estate - All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+    @RenderSection("Scripts", required: false)
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
