@@ -5,16 +5,23 @@ namespace wonderr.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly AppDbContext _context;
+        private readonly ITranslationService _translationService;
 
-        public IndexModel(wonderr.AppDbContext context)
+        public IndexModel(ITranslationService translationService, AppDbContext context)
         {
+            _translationService = translationService;
             _context = context;
         }
 
+        // Add these properties to expose translations to the view
+        public ITranslationService TranslationService => _translationService;
+
+        private readonly AppDbContext _context;       
+
+        public List<Developer> developers { get; set; }
         public void OnGet()
         {
-            var developers = _context.Developers.OrderByDescending(x => x.Id).Take(3);
+            developers = _context.Developers.OrderByDescending(x => x.Id).Take(3).ToList();
         }
     }
 }

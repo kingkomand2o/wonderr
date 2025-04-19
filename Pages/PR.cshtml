@@ -2,7 +2,8 @@
 @model wonderr.Pages.PRModel
 
 @{
-    ViewData["Title"] = "Exclusive Projects";
+    ViewData["Title"] = @Model.TranslationService.GetTranslation("projects4.hero.title");
+    var isArabic = @Model.TranslationService.GetCurrentLanguage() == "ar"; // Check if current language is Arabic
 }
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -13,14 +14,13 @@
     <div class="projects-page-hero-content">
         <div class="d-flex align-items-center justify-content-center gap-3 mb-4">
             <div class="projects-divider"></div>
-            <i class="fas fa-crown projects-icon fs-2"></i>
+            <i class="@Model.TranslationService.GetTranslation("projects4.hero.dividerIcon") projects-icon fs-2"></i>
             <div class="projects-divider"></div>
         </div>
-        <h1 class="display-3 fw-bold text-uppercase mb-4">EXCLUSIVE OFFERS</h1>
-        <p class="lead mb-5">Discover Unlimited Exclusive Properties in Various Locations</p>
+        <h1 class="display-3 fw-bold text-uppercase mb-4">@Model.TranslationService.GetTranslation("projects4.hero.title")</h1>
+        <p class="lead mb-5">@Model.TranslationService.GetTranslation("projects4.hero.description")</p>
     </div>
 </section>
-
 
 <!-- Filter Section -->
 <section class="projects-filter py-4">
@@ -29,8 +29,8 @@
             <div class="row g-3">
                 <div class="col-md-4">
                     <select class="form-select" id="locationFilter" data-filter="location">
-                        <option value="">All Locations</option>
-                        @foreach (var location in Model.Property.Select(p => p.LocationEn).Distinct())
+                        <option value="">@Model.TranslationService.GetTranslation("projects4.filter.allLocations")</option>
+                        @foreach (var location in Model.Property.Select(p => isArabic ? p.LocationAr : p.LocationEn).Distinct())
                         {
                             <option value="@location">@location</option>
                         }
@@ -38,8 +38,8 @@
                 </div>
                 <div class="col-md-4">
                     <select class="form-select" id="typeFilter" data-filter="type">
-                        <option value="">All Types</option>
-                        @foreach (var type in Model.Property.Select(p => p.LotTypeEn).Distinct())
+                        <option value="">@Model.TranslationService.GetTranslation("projects4.filter.allTypes")</option>
+                        @foreach (var type in Model.Property.Select(p => isArabic ? p.LotTypeAr : p.LotTypeEn).Distinct())
                         {
                             <option value="@type">@type</option>
                         }
@@ -47,7 +47,7 @@
                 </div>
                 <div class="col-md-4">
                     <select class="form-select" id="developerFilter" data-filter="developer">
-                        <option value="">Unit Size</option>
+                        <option value="">@Model.TranslationService.GetTranslation("projects4.filter.unitSize")</option>
                         @foreach (var type in Model.Property.Select(p => p.UnitSize).Distinct())
                         {
                             <option value="@type">@type</option>
@@ -69,9 +69,11 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="card h-100 shadow-hover border-0">
                         <div class="image-wrapper position-relative overflow-hidden">
-                            <img src="@pp.ImagePath" class="card-img-top" alt="@project.NameEn">
+                            <img src="@pp.ImagePath" class="card-img-top" alt="@(isArabic ? project.NameAr : project.NameEn)">
                             <div class="price-badge">
-                                <span class="h6 mb-0">@project.Price.ToString("C0")</span>
+                                <span class="h6 mb-0">
+                                    @Model.TranslationService.GetTranslation("projects4.showcase.priceBadgePrefix") @project.Price.ToString("C0")
+                                </span>
                             </div>
                         </div>
 
@@ -79,16 +81,78 @@
                             <h4 class="card-title mb-3">@project.NameEn</h4>
                             <div class="d-flex align-items-center gap-2 mb-3">
                                 <i class="fas fa-map-marker-alt text-gold"></i>
-                                <span class="text-muted">@project.LocationEn</span>
+                                <span class="text-muted">@((isArabic ? project.LocationAr : project.LocationEn))</span>
                                 <i class="fas fa-home text-gold ms-3"></i>
-                                <span class="text-muted">Residential</span>
+                                <span class="text-muted">@(isArabic ? project.LotTypeAr : project.LotTypeEn)</span>
                             </div>
                             <a href="/oneproject/@project.Id" class="btn btn-outline-gold w-100 mt-3">
-                                View Details
+                                @Model.TranslationService.GetTranslation("projects4.showcase.viewDetails")
                             </a>
                         </div>
                     </div>
-                </div>            }
+                </div>
+            }
         </div>
     </div>
 </section>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const locationFilter = document.getElementById("locationFilter");
+            const typeFilter = document.getElementById("typeFilter");
+            const developerFilter = document.getElementById("developerFilter");
+            const projectCards = document.querySelectorAll(".projects-showcase .card");
+
+            // Add filter attributes to each project card
+            projectCards.forEach(card => {
+                const name = card.querySelector(".card-title")?.innerText.trim() || "";
+                const location = card.querySelector(".text-muted")?.innerText.trim() || "";
+                const types = card.querySelectorAll(".text-muted");
+                const type = types.length > 1 ? types[1].innerText.trim() : "";
+                const unitSize = name.match(/\d+/) ? name.match(/\d+/)[0] : ""; // optional fallback
+
+                card.setAttribute("data-location", location.toLowerCase());
+                card.setAttribute("data-type", type.toLowerCase());
+                card.setAttribute("data-developer", unitSize.toLowerCase());
+            });
+
+            function applyFilters() {
+                const selectedLocation = locationFilter.value.toLowerCase();
+                const selectedType = typeFilter.value.toLowerCase();
+                const selectedDeveloper = developerFilter.value.toLowerCase();
+
+                projectCards.forEach(card => {
+                    const loc = card.getAttribute("data-location") || "";
+                    const type = card.getAttribute("data-type") || "";
+                    const dev = card.getAttribute("data-developer") || "";
+
+                    const matchLoc = !selectedLocation || loc === selectedLocation;
+                    const matchType = !selectedType || type === selectedType;
+                    const matchDev = !selectedDeveloper || dev === selectedDeveloper;
+
+                    if (matchLoc && matchType && matchDev) {
+                        card.closest(".col-lg-4, .col-md-6").style.display = "block";
+                    } else {
+                        card.closest(".col-lg-4, .col-md-6").style.display = "none";
+                    }
+                });
+            }
+
+            locationFilter.addEventListener("change", applyFilters);
+            typeFilter.addEventListener("change", applyFilters);
+            developerFilter.addEventListener("change", applyFilters);
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll(".card").forEach(card => {
+                card.addEventListener("click", function () {
+                    const link = card.querySelector("a.btn");
+                    if (link) window.location = link.href;
+                });
+            });
+        });
+    </script>
+
+}

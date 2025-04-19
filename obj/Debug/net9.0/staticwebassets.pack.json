@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\wonderr.6qwgsl56k1.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\ar.json",
+      "PackagePath": "staticwebassets\\Translations\\ar.json"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\en.json",
+      "PackagePath": "staticwebassets\\Translations\\en.json"
+    },
+    {
       "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\css\\aboutus.css",
       "PackagePath": "staticwebassets\\css\\aboutus.css"
     },
@@ -381,6 +389,10 @@
       "PackagePath": "staticwebassets\\product\\ce16073c-3b20-46ee-8177-702d99cf97b6_Upload_Newhomes_Entity_Db_ProjectPhoto_Photo_612f07be37d12bf305dac7a5c9d19985.jpg"
     },
     {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg",
+      "PackagePath": "staticwebassets\\product\\e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg"
+    },
+    {
       "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png",
       "PackagePath": "staticwebassets\\product\\f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png"
     },
@@ -391,6 +403,10 @@
     {
       "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\2c93a3d0-da6a-4b63-abd0-fe80c47e5927_470604034_2026851751119804_6839981259548261468_n.jpg",
       "PackagePath": "staticwebassets\\uploads\\properties\\2c93a3d0-da6a-4b63-abd0-fe80c47e5927_470604034_2026851751119804_6839981259548261468_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg",
+      "PackagePath": "staticwebassets\\uploads\\properties\\5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg"
     },
     {
       "Id": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\5cfdcd37-5e2f-44ff-a85d-29654ee5b57b_470604034_2026851751119804_6839981259548261468_n.jpg",

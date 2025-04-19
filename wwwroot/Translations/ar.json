@@ -1,0 +1,196 @@
+{
+  "hero": {
+    "title": {
+      "start": "مستشارك",
+      "trustworthy": "الموثوق",
+      "middle": "في معاملاتك",
+      "consultant": "العقارية"
+    },
+    "description": "نساعدك في العثور على منزلك المثالي بسهولة وتميز، ونقدم خدمة لا مثيل لها وخبرة عالية",
+    "cta": "اكتشف المزيد"
+  },
+  "developers": {
+    "sectionTitle": "شركائنا",
+    "premium": "مميز",
+    "explore": "استكشف",
+    "viewAll": "عرض الكل"
+  },
+  "projects": {
+    "sectionTitle": "مشاريعنا",
+    "residential": "سكني",
+    "administrative": "إداري",
+    "commercial": "تجاري",
+    "coastal": "ساحلي",
+    "explore": "استكشف"
+  },
+  "success": {
+    "title": "أرقامنا",
+    "happyClients": {
+      "number": "+500",
+      "label": "عميل راضٍ"
+    },
+    "developers": {
+      "number": "+20",
+      "label": "مطور"
+    },
+    "projectsCompleted": {
+      "number": "+100",
+      "label": "مشروع مكتمل"
+    }
+  },
+  "hero2": {
+    "title": "صياغة التميز في العقارات",
+    "description": "نبني الأحلام إلى واقع، عقارًا تلو الآخر",
+    "stats": {
+      "yearsExperience": "10+",
+      "yearsExperienceLabel": "سنوات الخبرة",
+      "propertiesSold": "500+",
+      "propertiesSoldLabel": "العقارات المباعة",
+      "clientSatisfaction": "98%",
+      "clientSatisfactionLabel": "رضا العملاء"
+    }
+  },
+  "values2": {
+    "subtitle": "قيمنا الأساسية",
+    "sectionTitle": "ما يدفعنا إلى الأمام",
+    "excellence": {
+      "title": "التميز",
+      "description": "نسعى إلى الكمال في كل معاملة"
+    },
+    "trust": {
+      "title": "الثقة",
+      "description": "نبني علاقات طويلة الأمد من خلال الشفافية"
+    },
+    "innovation": {
+      "title": "الابتكار",
+      "description": "نتبنى حلولًا جديدة للتحديات الحديثة"
+    }
+  },
+  "milestones2": {
+    "tagline": "طريقنا نحو النجاح",
+    "sectionTitle": "محطات الإنجاز",
+    "entry1": {
+      "date": "2014",
+      "title": "تأسيس الشركة",
+      "description": "بدأنا بمهمة لتحويل تجارب العقارات حول العالم."
+    },
+    "entry2": {
+      "date": "2018",
+      "title": "ريادة السوق",
+      "description": "حصلنا على اعتراف كواحد من أفضل مستشاري العقارات في المنطقة."
+    },
+    "entry3": {
+      "date": "2024",
+      "title": "التوسع العالمي",
+      "description": "أطلقنا عمليات دولية، موسعين تأثيرنا عالميًا."
+    },
+    "imageAlt": "رحلتنا"
+  },
+  "contact2": {
+    "sectionTitle": "تواصل معنا",
+    "description": "لديك أسئلة؟ يسعدنا سماعك. إليك كيفية الوصول إلينا.",
+    "callUs": {
+      "title": "اتصل بنا",
+      "mainOffice": "المكتب الرئيسي: 00201141826959",
+      "secondaryOffice": "00201099963382"
+    },
+    "emailUs": {
+      "title": "ارسل لنا بريداً",
+      "email": "ahmedmonazea@gmail.com"
+    },
+    "visitUs": {
+      "title": "زورنا في",
+      "addressLine1": "مول ميديكال سنتر 3، مدينة نصر، أبو داوود الظاهري",
+      "addressLine2": "الطابق الرابع، مكتب 439"
+    },
+    "workingHours": {
+      "title": "ساعات العمل",
+      "weekdays": "الاثنين - الجمعة: 9:00 صباحاً - 6:00 مساءً",
+      "saturday": "السبت: 10:00 صباحاً - 2:00 مساءً"
+    },
+    "socialLinks": {
+      "title": "تابعنا"
+    }
+  },
+  "projects3": {
+    "hero": {
+      "dividerIcon": "تطورات متميزة",
+      "title": "تطورات متميزة",
+      "description": "اكتشف عقارات حصرية بلا حدود في مواقع متنوعة",
+      "stats": {
+        "locations": {
+          "number": "+36",
+          "label": "مواقع متميزة"
+        },
+        "developers": {
+          "number": "+13",
+          "label": "مطورو النخبة"
+        },
+        "projects": {
+          "number": "+264",
+          "label": "مشاريع مكتملة"
+        }
+      }
+    },
+    "filter": {
+      "allLocations": "جميع المواقع",
+      "allTypes": "جميع الأنواع",
+      "allDevelopers": "جميع المطورين"
+    },
+    "showcase": {
+      "viewDetails": "عرض التفاصيل",
+      "priceBadgePrefix": ""
+    }
+  },
+  "projects4": {
+    "hero": {
+      "title": "عروض حصرية",
+      "description": "اكتشف العقارات الحصرية غير المحدودة في مواقع مختلفة",
+      "dividerIcon": "fas fa-crown"
+    },
+    "filter": {
+      "allLocations": "كل المواقع",
+      "allTypes": "كل الأنواع",
+      "unitSize": "حجم الوحدة"
+    },
+    "showcase": {
+      "priceBadgePrefix": "",
+      "viewDetails": "عرض التفاصيل"
+    }
+  },
+  "projectHero5": {
+    "carouselAlt": "عرض المشروع",
+    "prevButton": "السابق",
+    "nextButton": "التالي",
+    "tags": {
+      "location": "الموقع",
+      "deliveryDate": "تاريخ التسليم"
+    },
+    "pricePrefix": "ابتداء من",
+    "currency": "جنيه"
+  },
+  "projectDescription5": {
+    "overviewTitle": "نظرة عامة",
+    "deliveryDateTitle": "تاريخ التسليم",
+    "quickInfoTitle": "معلومات سريعة"
+  },
+  "projectHero6": {
+    "carouselAlt": "عرض المشروع",
+    "prevButton": "السابق",
+    "nextButton": "التالي",
+    "tags": {
+      "location": "الموقع",
+      "lotType": "النوع"
+    },
+    "pricePrefix": "ابتداء من",
+    "currency": "جنيه"
+  },
+  "projectDescription6": {
+    "overviewTitle": "نظرة عامة",
+    "overview": "وصف مفصل للمشروع يبرز الجوانب الفريدة وقيمة العرض.",
+    "lifestyleTitle": "نمط الحياة والخدمات",
+    "unitSizeTitle": "حجم الوحدة",
+    "deliveryDateTitle": "تاريخ التسليم",
+    "unitSizeSuffix": "م²"
+  }
+}

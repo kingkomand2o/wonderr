@@ -7,11 +7,16 @@ namespace wonderr.Pages
     public class projectsModel : PageModel
     {
         private readonly AppDbContext _context;
+        private readonly ITranslationService _translationService;
 
-        public projectsModel(AppDbContext context)
+
+        // Add these properties to expose translations to the view
+        public projectsModel(AppDbContext context, ITranslationService translationService)
         {
             _context = context;
+            _translationService = translationService;
         }
+        public ITranslationService TranslationService => _translationService;
 
         // Properties to hold data for the page
         public List<Project> Projects { get; set; } = new();

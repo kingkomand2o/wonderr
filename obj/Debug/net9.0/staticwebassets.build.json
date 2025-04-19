@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "FfEnnWxohVpi0LrJvkidb4FDe20Vjb+jUkwf4aqMJ54=",
+  "Hash": "vFyy+dy3LgPCc4SJV2IzwsdbTw2NF2O2HxJu95U72mY=",
   "Source": "wonderr",
   "BasePath": "_content/wonderr",
   "Mode": "Default",
@@ -498,6 +498,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\c1rpxuj91q-6g5yhwetfs.gz",
+      "SourceId": "wonderr",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/wonderr",
+      "RelativePath": "Translations/ar#[.{fingerprint=6g5yhwetfs}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\ar.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "tsl2fg9mat",
+      "Integrity": "3Zm7LCCst4k6WUcObS8X2NSs235Sl6z/7+fwsGhGcX4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\ar.json"
     },
     {
       "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\cclg8n94xg-73kdqttayv.gz",
@@ -1046,12 +1067,12 @@
       "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-3otll56x2w.gz",
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-mpm471jm39.gz",
       "SourceId": "wonderr",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/wonderr",
-      "RelativePath": "js/main#[.{fingerprint=3otll56x2w}]?.js.gz",
+      "RelativePath": "js/main#[.{fingerprint=mpm471jm39}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1060,8 +1081,8 @@
       "RelatedAsset": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\js\\main.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "knnck5ehb1",
-      "Integrity": "wOry12rMzCR4GsNU7T9y4WIwcOev6QaPuWDAnjnToN0=",
+      "Fingerprint": "lqrl6f70tp",
+      "Integrity": "U67suBiioT+ffixjd5T5+HXHIaPkf0VcRWBZ5pNh0EI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\js\\main.js"
@@ -1256,12 +1277,12 @@
       "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-61n19gt1b8.gz",
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-4dn52bw2kg.gz",
       "SourceId": "wonderr",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/wonderr",
-      "RelativePath": "favicon#[.{fingerprint=61n19gt1b8}]?.ico.gz",
+      "RelativePath": "favicon#[.{fingerprint=4dn52bw2kg}]?.ico.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -1270,8 +1291,8 @@
       "RelatedAsset": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lir1p715ud",
-      "Integrity": "jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=",
+      "Fingerprint": "q54vy5rs9n",
+      "Integrity": "MpOyYyAhnUGf9dlvU30rwGsyoWn8KX6ObT+EOhn2KIU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\favicon.ico"
@@ -1422,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\xwfa7v5u0c-kta9wdpjbl.gz",
+      "SourceId": "wonderr",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/wonderr",
+      "RelativePath": "Translations/en#[.{fingerprint=kta9wdpjbl}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\en.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "eesqi7jlah",
+      "Integrity": "RlCiN6sIMXEjHEKUQcOb4xh9AYCkZT+JFt7XaS4oF34=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\en.json"
     },
     {
       "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ykfn1gto0m-bpk8xqwxhs.gz",
@@ -1753,8 +1795,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "61n19gt1b8",
-      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "Fingerprint": "4dn52bw2kg",
+      "Integrity": "eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
@@ -2131,8 +2173,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3otll56x2w",
-      "Integrity": "jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA=",
+      "Fingerprint": "mpm471jm39",
+      "Integrity": "BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\main.js"
@@ -3566,6 +3608,27 @@
       "OriginalItemSpec": "wwwroot\\product\\ce16073c-3b20-46ee-8177-702d99cf97b6_Upload_Newhomes_Entity_Db_ProjectPhoto_Photo_612f07be37d12bf305dac7a5c9d19985.jpg"
     },
     {
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg",
+      "SourceId": "wonderr",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\",
+      "BasePath": "_content/wonderr",
+      "RelativePath": "product/e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n18irhch0w",
+      "Integrity": "xScDK1muC6TFYtYL0o3grr36+h46Yb0Jxd1uf2bTl8k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\product\\e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg"
+    },
+    {
       "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png",
       "SourceId": "wonderr",
       "SourceType": "Discovered",
@@ -3585,6 +3648,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\product\\f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\ar.json",
+      "SourceId": "wonderr",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\",
+      "BasePath": "_content/wonderr",
+      "RelativePath": "Translations/ar#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6g5yhwetfs",
+      "Integrity": "FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Translations\\ar.json"
+    },
+    {
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\en.json",
+      "SourceId": "wonderr",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\",
+      "BasePath": "_content/wonderr",
+      "RelativePath": "Translations/en#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kta9wdpjbl",
+      "Integrity": "+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Translations\\en.json"
     },
     {
       "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\22ca2c28-d324-4758-a050-406e61ac561c_470231671_2026851771119802_8596165882567430755_n.jpg",
@@ -3627,6 +3732,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\properties\\2c93a3d0-da6a-4b63-abd0-fe80c47e5927_470604034_2026851751119804_6839981259548261468_n.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg",
+      "SourceId": "wonderr",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\",
+      "BasePath": "_content/wonderr",
+      "RelativePath": "uploads/properties/5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nrwfdh8ibo",
+      "Integrity": "o2ShH4L0FYVmzclU1r4Da+wFh3HOTAtWAZeoFgL6rpM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\properties\\5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg"
     },
     {
       "Identity": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\5cfdcd37-5e2f-44ff-a85d-29654ee5b57b_470604034_2026851751119804_6839981259548261468_n.jpg",
@@ -5843,13 +5969,13 @@
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-61n19gt1b8.gz",
+      "Route": "favicon.4dn52bw2kg.ico",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-4dn52bw2kg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000411015208"
+          "Quality": "0.000982318271"
         }
       ],
       "ResponseHeaders": [
@@ -5859,15 +5985,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2432"
+          "Value": "1017"
         },
         {
           "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
+          "Value": "\"MpOyYyAhnUGf9dlvU30rwGsyoWn8KX6ObT+EOhn2KIU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 20:13:11 GMT"
+          "Value": "Tue, 24 Dec 2024 09:16:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5887,13 +6013,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "W/\"eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61n19gt1b8"
+          "Value": "4dn52bw2kg"
         },
         {
           "Name": "label",
@@ -5901,12 +6027,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8="
         }
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico",
+      "Route": "favicon.4dn52bw2kg.ico",
       "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5916,7 +6042,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "9662"
         },
         {
           "Name": "Content-Type",
@@ -5924,11 +6050,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 20:13:11 GMT"
+          "Value": "Tue, 24 Dec 2024 09:16:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5938,7 +6064,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61n19gt1b8"
+          "Value": "4dn52bw2kg"
         },
         {
           "Name": "label",
@@ -5946,13 +6072,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8="
         }
       ]
     },
     {
-      "Route": "favicon.61n19gt1b8.ico.gz",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-61n19gt1b8.gz",
+      "Route": "favicon.4dn52bw2kg.ico.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-4dn52bw2kg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5961,7 +6087,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2432"
+          "Value": "1017"
         },
         {
           "Name": "Content-Type",
@@ -5969,11 +6095,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
+          "Value": "\"MpOyYyAhnUGf9dlvU30rwGsyoWn8KX6ObT+EOhn2KIU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 20:13:11 GMT"
+          "Value": "Tue, 24 Dec 2024 09:16:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5991,7 +6117,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "61n19gt1b8"
+          "Value": "4dn52bw2kg"
         },
         {
           "Name": "label",
@@ -5999,18 +6125,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+          "Value": "sha256-MpOyYyAhnUGf9dlvU30rwGsyoWn8KX6ObT+EOhn2KIU="
         }
       ]
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-4dn52bw2kg.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000411015208"
+          "Quality": "0.000982318271"
         }
       ],
       "ResponseHeaders": [
@@ -6020,15 +6146,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2432"
+          "Value": "1017"
         },
         {
           "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
+          "Value": "\"MpOyYyAhnUGf9dlvU30rwGsyoWn8KX6ObT+EOhn2KIU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 20:13:11 GMT"
+          "Value": "Tue, 24 Dec 2024 09:16:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6048,13 +6174,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "W/\"eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8="
         }
       ]
     },
@@ -6069,7 +6195,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5430"
+          "Value": "9662"
         },
         {
           "Name": "Content-Type",
@@ -6077,11 +6203,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+          "Value": "\"eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 20:13:11 GMT"
+          "Value": "Tue, 24 Dec 2024 09:16:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6091,13 +6217,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+          "Value": "sha256-eCyRYzyZtrS4V0J9Ch7TQxW2Cq9P4+yZLM4JkdjChn8="
         }
       ]
     },
     {
       "Route": "favicon.ico.gz",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-61n19gt1b8.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\ssupugemch-4dn52bw2kg.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6106,7 +6232,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2432"
+          "Value": "1017"
         },
         {
           "Name": "Content-Type",
@@ -6114,11 +6240,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8=\""
+          "Value": "\"MpOyYyAhnUGf9dlvU30rwGsyoWn8KX6ObT+EOhn2KIU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 07 Nov 2024 20:13:11 GMT"
+          "Value": "Tue, 24 Dec 2024 09:16:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6136,7 +6262,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-jcY0RXFOlcp4VNTCcYQtWVZZBlr+ZY+AOv6/0S5dnF8="
+          "Value": "sha256-MpOyYyAhnUGf9dlvU30rwGsyoWn8KX6ObT+EOhn2KIU="
         }
       ]
     },
@@ -7751,13 +7877,13 @@
       ]
     },
     {
-      "Route": "js/main.3otll56x2w.js",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-3otll56x2w.gz",
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-mpm471jm39.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001096491228"
+          "Quality": "0.000755857899"
         }
       ],
       "ResponseHeaders": [
@@ -7767,19 +7893,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "911"
+          "Value": "1322"
         },
         {
           "Name": "ETag",
-          "Value": "\"wOry12rMzCR4GsNU7T9y4WIwcOev6QaPuWDAnjnToN0=\""
+          "Value": "\"U67suBiioT+ffixjd5T5+HXHIaPkf0VcRWBZ5pNh0EI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 01 Nov 2024 04:37:04 GMT"
+          "Value": "Mon, 23 Dec 2024 05:08:10 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -7795,26 +7921,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA=\""
+          "Value": "W/\"BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3otll56x2w"
-        },
-        {
-          "Name": "label",
-          "Value": "js/main.js"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA="
+          "Value": "sha256-BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w="
         }
       ]
     },
     {
-      "Route": "js/main.3otll56x2w.js",
+      "Route": "js/main.js",
       "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\js\\main.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7824,7 +7942,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3077"
+          "Value": "4799"
         },
         {
           "Name": "Content-Type",
@@ -7832,11 +7950,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA=\""
+          "Value": "\"BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 01 Nov 2024 04:37:04 GMT"
+          "Value": "Mon, 23 Dec 2024 05:08:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-mpm471jm39.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U67suBiioT+ffixjd5T5+HXHIaPkf0VcRWBZ5pNh0EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 05:08:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-U67suBiioT+ffixjd5T5+HXHIaPkf0VcRWBZ5pNh0EI="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.mpm471jm39.js",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-mpm471jm39.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000755857899"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1322"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"U67suBiioT+ffixjd5T5+HXHIaPkf0VcRWBZ5pNh0EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 05:08:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mpm471jm39"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.mpm471jm39.js",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4799"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 23 Dec 2024 05:08:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7846,7 +8109,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3otll56x2w"
+          "Value": "mpm471jm39"
         },
         {
           "Name": "label",
@@ -7854,13 +8117,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA="
+          "Value": "sha256-BvlPta3OyGCswqtpC3WLKwgAcox4JxhTgVJpAxfxK3w="
         }
       ]
     },
     {
-      "Route": "js/main.3otll56x2w.js.gz",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-3otll56x2w.gz",
+      "Route": "js/main.mpm471jm39.js.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-mpm471jm39.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7869,7 +8132,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "911"
+          "Value": "1322"
         },
         {
           "Name": "Content-Type",
@@ -7877,11 +8140,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wOry12rMzCR4GsNU7T9y4WIwcOev6QaPuWDAnjnToN0=\""
+          "Value": "\"U67suBiioT+ffixjd5T5+HXHIaPkf0VcRWBZ5pNh0EI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 01 Nov 2024 04:37:04 GMT"
+          "Value": "Mon, 23 Dec 2024 05:08:10 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7899,7 +8162,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3otll56x2w"
+          "Value": "mpm471jm39"
         },
         {
           "Name": "label",
@@ -7907,144 +8170,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-wOry12rMzCR4GsNU7T9y4WIwcOev6QaPuWDAnjnToN0="
-        }
-      ]
-    },
-    {
-      "Route": "js/main.js",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-3otll56x2w.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001096491228"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "911"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wOry12rMzCR4GsNU7T9y4WIwcOev6QaPuWDAnjnToN0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 01 Nov 2024 04:37:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA="
-        }
-      ]
-    },
-    {
-      "Route": "js/main.js",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\js\\main.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3077"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 01 Nov 2024 04:37:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-jW2+CZf2BOajIzyINOt9PHeu6hiu8+Ef0e5/79ipNgA="
-        }
-      ]
-    },
-    {
-      "Route": "js/main.js.gz",
-      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\nt2ef5rjhv-3otll56x2w.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "911"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wOry12rMzCR4GsNU7T9y4WIwcOev6QaPuWDAnjnToN0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 01 Nov 2024 04:37:04 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-wOry12rMzCR4GsNU7T9y4WIwcOev6QaPuWDAnjnToN0="
+          "Value": "sha256-U67suBiioT+ffixjd5T5+HXHIaPkf0VcRWBZ5pNh0EI="
         }
       ]
     },
@@ -26801,6 +26927,88 @@
       ]
     },
     {
+      "Route": "product/e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xScDK1muC6TFYtYL0o3grr36+h46Yb0Jxd1uf2bTl8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 10:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xScDK1muC6TFYtYL0o3grr36+h46Yb0Jxd1uf2bTl8k="
+        }
+      ]
+    },
+    {
+      "Route": "product/e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.n18irhch0w.jpg",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "182787"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xScDK1muC6TFYtYL0o3grr36+h46Yb0Jxd1uf2bTl8k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 10:55:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n18irhch0w"
+        },
+        {
+          "Name": "label",
+          "Value": "product/e6c52df7-082c-4039-b36c-f00e35b3c674_470189944_2026851734453139_1379194143068424563_n.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xScDK1muC6TFYtYL0o3grr36+h46Yb0Jxd1uf2bTl8k="
+        }
+      ]
+    },
+    {
       "Route": "product/f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png",
       "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\product\\f78be79c-10a9-48e8-9003-a68f1f162480_Misr-Italia_logo.png",
       "Selectors": [],
@@ -26879,6 +27087,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-FU3HP/5ejCvw9rKf2r+lMBd349SAQPacK/5Z12LqHYk="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/ar.6g5yhwetfs.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\c1rpxuj91q-6g5yhwetfs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000463606861"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2156"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Zm7LCCst4k6WUcObS8X2NSs235Sl6z/7+fwsGhGcX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:02:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g5yhwetfs"
+        },
+        {
+          "Name": "label",
+          "Value": "Translations/ar.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/ar.6g5yhwetfs.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\ar.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:02:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g5yhwetfs"
+        },
+        {
+          "Name": "label",
+          "Value": "Translations/ar.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/ar.6g5yhwetfs.json.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\c1rpxuj91q-6g5yhwetfs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Zm7LCCst4k6WUcObS8X2NSs235Sl6z/7+fwsGhGcX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:02:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6g5yhwetfs"
+        },
+        {
+          "Name": "label",
+          "Value": "Translations/ar.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Zm7LCCst4k6WUcObS8X2NSs235Sl6z/7+fwsGhGcX4="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/ar.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\c1rpxuj91q-6g5yhwetfs.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000463606861"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2156"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Zm7LCCst4k6WUcObS8X2NSs235Sl6z/7+fwsGhGcX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:02:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/ar.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\ar.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6546"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:02:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FqEftAyFsSd/gQSg0FxbLnXWtXZ0i5cMOd1rSEcL2Po="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/ar.json.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\c1rpxuj91q-6g5yhwetfs.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2156"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Zm7LCCst4k6WUcObS8X2NSs235Sl6z/7+fwsGhGcX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 12:02:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Zm7LCCst4k6WUcObS8X2NSs235Sl6z/7+fwsGhGcX4="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/en.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\xwfa7v5u0c-kta9wdpjbl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000548847420"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1821"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RlCiN6sIMXEjHEKUQcOb4xh9AYCkZT+JFt7XaS4oF34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/en.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\en.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/en.json.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\xwfa7v5u0c-kta9wdpjbl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RlCiN6sIMXEjHEKUQcOb4xh9AYCkZT+JFt7XaS4oF34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RlCiN6sIMXEjHEKUQcOb4xh9AYCkZT+JFt7XaS4oF34="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/en.kta9wdpjbl.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\xwfa7v5u0c-kta9wdpjbl.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000548847420"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1821"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RlCiN6sIMXEjHEKUQcOb4xh9AYCkZT+JFt7XaS4oF34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kta9wdpjbl"
+        },
+        {
+          "Name": "label",
+          "Value": "Translations/en.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/en.kta9wdpjbl.json",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\Translations\\en.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kta9wdpjbl"
+        },
+        {
+          "Name": "label",
+          "Value": "Translations/en.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+JzEBevqQg+JCjjC36sUMsBCVGfdWcFgaUpyT9Kp3WE="
+        }
+      ]
+    },
+    {
+      "Route": "Translations/en.kta9wdpjbl.json.gz",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\obj\\Debug\\net9.0\\compressed\\xwfa7v5u0c-kta9wdpjbl.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1821"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RlCiN6sIMXEjHEKUQcOb4xh9AYCkZT+JFt7XaS4oF34=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Dec 2024 10:29:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kta9wdpjbl"
+        },
+        {
+          "Name": "label",
+          "Value": "Translations/en.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RlCiN6sIMXEjHEKUQcOb4xh9AYCkZT+JFt7XaS4oF34="
         }
       ]
     },
@@ -27043,6 +27847,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-t8NO3b1Vy3AbfzLfttHTmiXCC7BbkU5vbhYidYGicpg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/properties/5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2ShH4L0FYVmzclU1r4Da+wFh3HOTAtWAZeoFgL6rpM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 11:29:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2ShH4L0FYVmzclU1r4Da+wFh3HOTAtWAZeoFgL6rpM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/properties/5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.nrwfdh8ibo.jpg",
+      "AssetFile": "C:\\Users\\kingk\\OneDrive\\Desktop\\wonderr\\wonderr\\wwwroot\\uploads\\properties\\5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "178936"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"o2ShH4L0FYVmzclU1r4Da+wFh3HOTAtWAZeoFgL6rpM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 18 Apr 2025 11:29:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nrwfdh8ibo"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/properties/5296ecec-f439-4a1c-a894-bd18156b77d2_470557794_2026851857786460_2533386052725312381_n.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-o2ShH4L0FYVmzclU1r4Da+wFh3HOTAtWAZeoFgL6rpM="
         }
       ]
     },

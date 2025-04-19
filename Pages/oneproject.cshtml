@@ -1,6 +1,7 @@
 ﻿@page "/oneproject/{id:int}"
 @model wonderr.Pages.oneprojectModel
 @{
+    bool isArabic = Model.TranslationService.GetCurrentLanguage() == "ar";
 }
 
 <link rel="stylesheet" href="~/css/oneproject.css" />
@@ -11,18 +12,18 @@
             <div class="carousel-inner">
                 @foreach (var item in Model.ImagePaths)
                 {
-                    <div class="carousel-item active">
-                        <img src="~/uploads/properties/@item.Substring(19)" class="d-block w-100" alt="Project View 2">
+                    <div class="carousel-item @(Model.ImagePaths.First() == item ? "active" : "")">
+                        <img src="~/uploads/properties/@item.Substring(19)" class="d-block w-100" alt="@Model.TranslationService.GetTranslation("projectHero6.carouselAlt")">
                     </div>
                 }
-                
-                <!-- Add more carousel items as needed -->
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">@Model.TranslationService.GetTranslation("projectHero6.prevButton")</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">@Model.TranslationService.GetTranslation("projectHero6.nextButton")</span>
             </button>
         </div>
     </div>
@@ -31,13 +32,19 @@
         <div class="container">
             <div class="project-header">
                 <div class="project-tags">
-                    <span class="tag"><i class="fas fa-map-marker-alt"></i>@Model.property.LocationEn</span>
-                    <span class="tag"><i class="fas fa-home"></i> @Model.property.LotTypeEn</span>
+                    <span class="tag">
+                        <i class="fas fa-map-marker-alt"></i>
+                        @(isArabic ? Model.property.LocationAr : Model.property.LocationEn)
+                    </span>
+                    <span class="tag">
+                        <i class="fas fa-home"></i>
+                        @(isArabic ? Model.property.LotTypeAr : Model.property.LotTypeEn)
+                    </span>
                 </div>
                 <h1 class="cairo">@Model.property.NameEn</h1>
                 <div class="project-price">
-                    <span>Starting from</span>
-                    <h2>@Model.property.Price.ToString("N0") EGP</h2>
+                    <span>@Model.TranslationService.GetTranslation("projectHero6.pricePrefix")</span>
+                    <h2>@Model.property.Price.ToString("N0") @Model.TranslationService.GetTranslation("projectHero6.currency")</h2>
                 </div>
             </div>
         </div>
@@ -50,13 +57,9 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="description-content">
-                    <h3>Overview</h3>
+                    <h3>@Model.TranslationService.GetTranslation("projectDescription6.overviewTitle")</h3>
                     <div class="separator"></div>
                     <p class="cairo">@Model.property.NameAr</p>
-
-                    <h3 class="mt-5">Lifestyle & Amenities</h3>
-                    <div class="separator"></div>
-                    <p class="cairo"></p>
                 </div>
             </div>
             <div class="col-lg-4">
@@ -64,14 +67,14 @@
                     <div class="info-item">
                         <i class="fas fa-ruler-combined"></i>
                         <div>
-                            <h4>Unit Size</h4>
-                            <p>@Model.property.UnitSize m²</p>
+                            <h4>@Model.TranslationService.GetTranslation("projectDescription6.unitSizeTitle")</h4>
+                            <p>@Model.property.UnitSize @Model.TranslationService.GetTranslation("projectDescription6.unitSizeSuffix")</p>
                         </div>
                     </div>
                     <div class="info-item">
                         <i class="fas fa-calendar-alt"></i>
                         <div>
-                            <h4>Delivery Date</h4>
+                            <h4>@Model.TranslationService.GetTranslation("projectDescription6.deliveryDateTitle")</h4>
                             <p>@Model.property.DeliveryDate</p>
                         </div>
                     </div>

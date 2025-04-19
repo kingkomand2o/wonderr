@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wonderr")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab9ce5ac89c1a8863d4bf27a599f8925a2b56e50")]
 [assembly: System.Reflection.AssemblyProductAttribute("wonderr")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wonderr")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

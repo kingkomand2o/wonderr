@@ -7,78 +7,63 @@
 <!-- Hero Section -->
 <section class="hero">
     <div class="hero-content">
-        <h1 class="hero-title">Your <span style="color: #D8AE7E;">Trustworthy</span> Real Estate <span style="color: #D8AE7E;">Consultant</span></h1>
+        <h1 class="hero-title">
+            @Model.TranslationService.GetTranslation("hero.title.start")
+            <span style="color: #D8AE7E;">@Model.TranslationService.GetTranslation("hero.title.trustworthy")</span>
+            @Model.TranslationService.GetTranslation("hero.title.middle")
+            <span style="color: #D8AE7E;">@Model.TranslationService.GetTranslation("hero.title.consultant")</span>
+        </h1>
         <div class="hero-divider"></div>
-        <p class="hero-description">We help you find your dream property with ease and excellence, providing unparalleled service and expertise.</p>
-        <a href="#" class="hero-cta">Discover More</a>
+        <p class="hero-description">@Model.TranslationService.GetTranslation("hero.description")</p>
+        <a href="#" class="hero-cta">@Model.TranslationService.GetTranslation("hero.cta")</a>
         <div class="hero-social">
-            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100064046708893&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://web.whatsapp.com/send?phone=201212959999&text=Hello%2C%20I%20want%20to%20ask%20about%20a%20unit" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/wonederland2024?igsh=MTF5Y2Nlc3J6N3VrYw==" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
     </div>
 </section>
 
-
-
 <!-- Featured Developers Section -->
 <section class="developers-section container py-5">
+    <h2 class="text-center">@Model.TranslationService.GetTranslation("developers.sectionTitle")</h2>
     <div class="row row-cols-1 row-cols-md-3 g-4">
-        <div class="col">
-            <div class="card d-flex flex-column" style="height: 450px;">
-                <div class="image-container">
-                    <img src="~/img/emaar.svg" alt="Developer Logo">
-                </div>
-                <div class="card-body mt-auto" style="margin-top: -30px;">
-                    <p class="text-uppercase" style="color: #D8AE7E;margin-bottom: -7px !important;font-weight: bold;font-size: 14px;">Premium</p>
-                    <h2 class="card-title" style="text-align: start;font-weight: bold;">Developer Name</h2>
-                    <p class="card-text" style="color: #696969;">A brief description of the developer goes here, showcasing their specialties.</p>
-                    <a href="#" class="btn btn-outline-primary" style="width: 100% !important;">Explore</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card d-flex flex-column" style="height: 450px;">
-                <div class="image-container">
-                    <img src="~/img/tatweer.png" alt="Developer Logo">
-                </div>
-
-                <div class="card-body mt-auto" style="margin-top: -30px;">
-                    <p class="text-uppercase" style="color: #D8AE7E;margin-bottom: -7px !important;font-weight: bold;font-size: 14px;">Premium</p>
-                    <h2 class="card-title" style="text-align: start;font-weight: bold;">Developer Name</h2>
-                    <p class="card-text" style="color: #696969;">A brief description of the developer goes here, showcasing their specialties.</p>
-                    <a href="#" class="btn btn-outline-primary" style="width: 100% !important;">Explore</a>
+        @foreach (var item in Model.developers)
+        {
+            <div class="col">
+                <div class="card d-flex flex-column" style="height: 450px;">
+                    <div class="image-container">
+                        <img src="~/product/@item.Image.Substring(8)" alt="Developer Logo">
+                    </div>
+                    <div class="card-body mt-auto" style="margin-top: -30px;">
+                        <p class="text-uppercase" style="color: #D8AE7E;margin-bottom: -7px !important;font-weight: bold;font-size: 14px;">
+                            @Model.TranslationService.GetTranslation("developers.premium")
+                        </p>
+                        <h2 class="card-title" style="text-align: start;font-weight: bold;">
+                            @(Model.TranslationService.GetCurrentLanguage() == "en" ? item.NameEn : item.NameAr)
+                        </h2>
+                        <p class="card-text" style="color: #696969;">
+                            @(Model.TranslationService.GetCurrentLanguage() == "en" ? item.DescriptionEn : item.DescriptionAr)
+                        </p>
+                        <a asp-page="projects" class="btn btn-outline-primary" style="width: 100% !important;">
+                            @Model.TranslationService.GetTranslation("developers.explore")
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="col">
-            <div class="card d-flex flex-column" style="height: 450px;">
-                <div class="image-container">
-                    <img src="~/img/Misr-Italia_logo.png" class="card-img-top" alt="Developer Logo">
-                </div>
-                <div class="card-body mt-auto" style="margin-top: -30px;">
-                    <p class="text-uppercase" style="color: #D8AE7E; margin-bottom: -7px !important; font-weight: bold; font-size: 14px;">Premium</p>
-                    <h2 class="card-title" style="text-align: start; font-weight: bold;">Developer Name</h2>
-                    <p class="card-text" style="color: #696969;">A brief description of the developer goes here, showcasing their specialties.</p>
-                    <a href="#" class="btn btn-outline-primary" style="width: 100% !important;">Explore</a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Additional developer cards as needed -->
+        }
     </div>
     <div class="text-center mt-4">
-        <button class="btn btn-outline-dark">
-            <i class="fas fa-th-large me-2"></i> View All
+        <button class="btn btn-outline-dark" onclick="@Url.Action("projects")">
+            <i class="fas fa-th-large me-2"></i> @Model.TranslationService.GetTranslation("developers.viewAll")
         </button>
     </div>
 </section>
 
-
 <!-- Projects Section -->
 <section class="projects-section py-5">
     <div class="container">
-        <h2 class="text-center mb-5" style="color: #D8AE7E; font-weight: bold;">Our Projects</h2>
+        <h2 class="text-center mb-5" style="color: #D8AE7E; font-weight: bold;">@Model.TranslationService.GetTranslation("projects.sectionTitle")</h2>
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card bg-dark border-0">
@@ -86,8 +71,8 @@
                         <img src="~/img/residential.jpg" class="card-img-top" alt="Project Image">
                     </div>
                     <div class="card-body text-center py-4">
-                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">Residential</h3>
-                        <a href="#" class="btn btn-outline-primary px-5">Explore</a>
+                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">@Model.TranslationService.GetTranslation("projects.residential")</h3>
+                        <a asp-page="PR" class="btn btn-outline-primary px-5">@Model.TranslationService.GetTranslation("projects.explore")</a>
                     </div>
                 </div>
             </div>
@@ -97,8 +82,8 @@
                         <img src="~/img/administrative.jpg" class="card-img-top" alt="Project Image">
                     </div>
                     <div class="card-body text-center py-4">
-                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">Administrative</h3>
-                        <a href="#" class="btn btn-outline-primary px-5">Explore</a>
+                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">@Model.TranslationService.GetTranslation("projects.administrative")</h3>
+                        <a asp-page="PR" class="btn btn-outline-primary px-5">@Model.TranslationService.GetTranslation("projects.explore")</a>
                     </div>
                 </div>
             </div>
@@ -108,8 +93,8 @@
                         <img src="~/img/commercial.jpg" class="card-img-top" alt="Project Image">
                     </div>
                     <div class="card-body text-center py-4">
-                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">Commercial</h3>
-                        <a href="#" class="btn btn-outline-primary px-5">Explore</a>
+                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">@Model.TranslationService.GetTranslation("projects.commercial")</h3>
+                        <a asp-page="PR" class="btn btn-outline-primary px-5">@Model.TranslationService.GetTranslation("projects.explore")</a>
                     </div>
                 </div>
             </div>
@@ -119,8 +104,8 @@
                         <img src="~/img/coastal.jpg" class="card-img-top" alt="Project Image">
                     </div>
                     <div class="card-body text-center py-4">
-                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">Coastal</h3>
-                        <a href="#" class="btn btn-outline-primary px-5">Explore</a>
+                        <h3 class="card-title mb-4" style="color: #D8AE7E; font-weight: bold;">@Model.TranslationService.GetTranslation("projects.coastal")</h3>
+                        <a asp-page="PR" class="btn btn-outline-primary px-5">@Model.TranslationService.GetTranslation("projects.explore")</a>
                     </div>
                 </div>
             </div>
@@ -128,31 +113,30 @@
     </div>
 </section>
 
-
 <!-- Our Success Numbers Section -->
 <section class="success-numbers py-5 text-center text-light bg-dark">
     <div class="container">
-        <h2>Our Success Numbers</h2>
+        <h2>@Model.TranslationService.GetTranslation("success.title")</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4 mt-4">
             <div class="col">
                 <div class="stat">
                     <i class="fas fa-smile fa-2x mb-2" style="color: #D8AE7E;"></i>
-                    <h3>500+</h3>
-                    <p>Happy Clients</p>
+                    <h3>@Model.TranslationService.GetTranslation("success.happyClients.number")</h3>
+                    <p>@Model.TranslationService.GetTranslation("success.happyClients.label")</p>
                 </div>
             </div>
             <div class="col">
                 <div class="stat">
                     <i class="fas fa-city fa-2x mb-2" style="color: #D8AE7E;"></i>
-                    <h3>20+</h3>
-                    <p>Developers</p>
+                    <h3>@Model.TranslationService.GetTranslation("success.developers.number")</h3>
+                    <p>@Model.TranslationService.GetTranslation("success.developers.label")</p>
                 </div>
             </div>
             <div class="col">
                 <div class="stat">
                     <i class="fas fa-building fa-2x mb-2" style="color: #D8AE7E;"></i>
-                    <h3>100+</h3>
-                    <p>Projects Completed</p>
+                    <h3>@Model.TranslationService.GetTranslation("success.projectsCompleted.number")</h3>
+                    <p>@Model.TranslationService.GetTranslation("success.projectsCompleted.label")</p>
                 </div>
             </div>
         </div>

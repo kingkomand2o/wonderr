@@ -11,12 +11,18 @@ namespace wonderr.Pages
 {
     public class PRModel : PageModel
     {
+        private readonly ITranslationService _translationService;
+
+        // Add these properties to expose translations to the view
         private readonly wonderr.AppDbContext _context;
 
-        public PRModel(wonderr.AppDbContext context)
+        public PRModel(wonderr.AppDbContext context, ITranslationService translationService)
         {
             _context = context;
+            _translationService = translationService;
+
         }
+        public ITranslationService TranslationService => _translationService;
 
         public IList<Property> Property { get;set; } = default!;
         public IList<PropertyImage> pp { get; set; }

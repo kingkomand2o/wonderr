@@ -8,12 +8,16 @@ namespace wonderr.Pages
     {
         private readonly AppDbContext _context;
         private readonly IWebHostEnvironment _environment;
+        private readonly ITranslationService _translationService;
 
-        public oneprojectModel(AppDbContext context, IWebHostEnvironment environment)
+        // Add these properties to expose translations to the view
+        public oneprojectModel(AppDbContext context, IWebHostEnvironment environment, ITranslationService translationService)
         {
             _context = context;
             _environment = environment;
+            _translationService = translationService;
         }
+        public ITranslationService TranslationService => _translationService;
 
         public IList<Project> Projects { get; set; } = default!;
 

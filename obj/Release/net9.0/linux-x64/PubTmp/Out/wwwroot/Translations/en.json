@@ -1,0 +1,196 @@
+{
+  "hero": {
+    "title": {
+      "start": "Your",
+      "trustworthy": "Trustworthy",
+      "middle": "Real Estate",
+      "consultant": "Consultant"
+    },
+    "description": "We help you find your dream property with ease and excellence, providing unparalleled service and expertise.",
+    "cta": "Discover More"
+  },
+  "developers": {
+    "sectionTitle": "Featured Developers",
+    "premium": "Premium",
+    "explore": "Explore",
+    "viewAll": "View All"
+  },
+  "projects": {
+    "sectionTitle": "Our Projects",
+    "residential": "Residential",
+    "administrative": "Administrative",
+    "commercial": "Commercial",
+    "coastal": "Coastal",
+    "explore": "Explore"
+  },
+  "success": {
+    "title": "Our Success Numbers",
+    "happyClients": {
+      "number": "500+",
+      "label": "Happy Clients"
+    },
+    "developers": {
+      "number": "20+",
+      "label": "Developers"
+    },
+    "projectsCompleted": {
+      "number": "100+",
+      "label": "Projects Completed"
+    }
+  },
+  "hero2": {
+    "title": "Crafting Real Estate Excellence",
+    "description": "Building dreams into reality, one property at a time",
+    "stats": {
+      "yearsExperience": "10+",
+      "yearsExperienceLabel": "Years Experience",
+      "propertiesSold": "500+",
+      "propertiesSoldLabel": "Properties Sold",
+      "clientSatisfaction": "98%",
+      "clientSatisfactionLabel": "Client Satisfaction"
+    }
+  },
+  "values2": {
+    "subtitle": "Our Core Values",
+    "sectionTitle": "What Drives Us Forward",
+    "excellence": {
+      "title": "Excellence",
+      "description": "Striving for perfection in every transaction"
+    },
+    "trust": {
+      "title": "Trust",
+      "description": "Building lasting relationships through transparency"
+    },
+    "innovation": {
+      "title": "Innovation",
+      "description": "Embracing new solutions for modern challenges"
+    }
+  },
+  "milestones2": {
+    "tagline": "Our Path to Success",
+    "sectionTitle": "Milestones of Achievement",
+    "entry1": {
+      "date": "2014",
+      "title": "Company Founded",
+      "description": "Began with a mission to transform real estate experiences worldwide."
+    },
+    "entry2": {
+      "date": "2018",
+      "title": "Market Leader",
+      "description": "Achieved recognition as a top real estate consultant in the region."
+    },
+    "entry3": {
+      "date": "2024",
+      "title": "Global Expansion",
+      "description": "Launched international operations, expanding our impact globally."
+    },
+    "imageAlt": "Our Journey"
+  },
+  "contact2": {
+    "sectionTitle": "Get in Touch",
+    "description": "Have questions? We'd love to hear from you. Here's how you can reach us.",
+    "callUs": {
+      "title": "Call Us",
+      "mainOffice": "Main Office: 00201141826959",
+      "secondaryOffice": "00201099963382"
+    },
+    "emailUs": {
+      "title": "Email Us",
+      "email": "ahmedmonazea@gmail.com"
+    },
+    "visitUs": {
+      "title": "Visit Us",
+      "addressLine1": "Medical Center Mall 3, Nasr City, Abou Dawoud El Zaheri",
+      "addressLine2": "4th Floor, Office 439"
+    },
+    "workingHours": {
+      "title": "Working Hours",
+      "weekdays": "Monday - Friday: 9:00 AM - 6:00 PM",
+      "saturday": "Saturday: 10:00 AM - 2:00 PM"
+    },
+    "socialLinks": {
+      "title": "Follow Us"
+    }
+  },
+  "projects3": {
+    "hero": {
+      "dividerIcon": "Premium Developments",
+      "title": "Premium Developments",
+      "description": "Discover Unlimited Exclusive Properties in Various Locations",
+      "stats": {
+        "locations": {
+          "number": "+36",
+          "label": "Premium Locations"
+        },
+        "developers": {
+          "number": "+13",
+          "label": "Elite Developers"
+        },
+        "projects": {
+          "number": "+264",
+          "label": "Established Projects"
+        }
+      }
+    },
+    "filter": {
+      "allLocations": "All Locations",
+      "allTypes": "All Types",
+      "allDevelopers": "All Developers"
+    },
+    "showcase": {
+      "viewDetails": "View Details",
+      "priceBadgePrefix": ""
+    }
+  },
+  "projects4": {
+    "hero": {
+      "title": "EXCLUSIVE OFFERS",
+      "description": "Discover Unlimited Exclusive Properties in Various Locations",
+      "dividerIcon": "fas fa-crown"
+    },
+    "filter": {
+      "allLocations": "All Locations",
+      "allTypes": "All Types",
+      "unitSize": "Unit Size"
+    },
+    "showcase": {
+      "priceBadgePrefix": "",
+      "viewDetails": "View Details"
+    }
+  },
+  "projectHero5": {
+    "carouselAlt": "Project View",
+    "prevButton": "Previous",
+    "nextButton": "Next",
+    "tags": {
+      "location": "Location",
+      "deliveryDate": "Delivery Date"
+    },
+    "pricePrefix": "Starting from",
+    "currency": "EGP"
+  },
+  "projectDescription5": {
+    "overviewTitle": "Overview",
+    "deliveryDateTitle": "Delivery Date",
+    "quickInfoTitle": "Quick Info"
+  },
+  "projectHero6": {
+    "carouselAlt": "Project View",
+    "prevButton": "Previous",
+    "nextButton": "Next",
+    "tags": {
+      "location": "Location",
+      "lotType": "Type"
+    },
+    "pricePrefix": "Starting from",
+    "currency": "EGP"
+  },
+  "projectDescription6": {
+    "overviewTitle": "Overview",
+    "overview": "A detailed description of the project highlighting its unique aspects and value proposition.",
+    "lifestyleTitle": "Lifestyle & Amenities",
+    "unitSizeTitle": "Unit Size",
+    "deliveryDateTitle": "Delivery Date",
+    "unitSizeSuffix": "m²"
+  }
+}
